@@ -51,7 +51,9 @@ The server runs in `http://127.0.0.1:8000`.
 ## Routes
 ####
 `[GET] /admin`: Access to the admin of Django `http://127.0.0.1:8000/admin`
+
 `[GET | POST] /employee`: Access the endpoint of employee `http://127.0.0.1:8000/employee`
+
 `[GET | DELETE] /employee/{id}`: Access the endpoint of employee with an specifc identification code `http://127.0.0.1:8000/employee/{id}`
 
 ## Why I kept the example
